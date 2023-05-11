@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T11:51:04.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="8m14RblvOecmdSdh0j0l" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T11:53:27.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="Nm-KTm7obHIJAvsobYdV" version="21.1.7" type="github">
   <diagram name="第 1 页" id="XdZXDNjXaWNBdGgiEhSH">
     <mxGraphModel dx="790" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="lhr4ThVmoQgb3uyED7eD-1" value="GPA" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
           <mxGeometry x="40" y="400" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lhr4ThVmoQgb3uyED7eD-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="400" width="80" height="40" as="geometry" />
+        <mxCell id="lhr4ThVmoQgb3uyED7eD-2" value="MemoryRegionSection" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lhr4ThVmoQgb3uyED7eD-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" edge="1" parent="1" source="lhr4ThVmoQgb3uyED7eD-1" target="lhr4ThVmoQgb3uyED7eD-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -17,7 +17,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lhr4ThVmoQgb3uyED7eD-4" value="&lt;font color=&quot;#EA6B66&quot;&gt;AddressSpaceDispatch&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="380" width="60" height="30" as="geometry" />
+          <mxGeometry x="170" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lhr4ThVmoQgb3uyED7eD-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lhr4ThVmoQgb3uyED7eD-6" value="FlatRange" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lhr4ThVmoQgb3uyED7eD-8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lhr4ThVmoQgb3uyED7eD-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="590" as="sourcePoint" />
+            <mxPoint x="350" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lhr4ThVmoQgb3uyED7eD-10" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lhr4ThVmoQgb3uyED7eD-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="340" as="sourcePoint" />
+            <mxPoint x="430" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lhr4ThVmoQgb3uyED7eD-11" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lhr4ThVmoQgb3uyED7eD-2" target="lhr4ThVmoQgb3uyED7eD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="590" as="sourcePoint" />
+            <mxPoint x="430" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
